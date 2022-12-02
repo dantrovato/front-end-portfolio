@@ -53,11 +53,27 @@ body > section {
   background-color: orange;
 }
 
-h2 + img {
+#hero-section {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#about-div {
+  display: flex;
+}
+
+h2 + img,
+div img {
   height: 300px;
   /* width: 300px; */
 }
 
 main {
   background-color: yellow;
+}
+
+@media screen and (max-width: 700px) {
+  header {
+    display: none;
+  }
 }

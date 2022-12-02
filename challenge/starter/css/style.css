@@ -1,0 +1,63 @@
+:root {
+  --text-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1.5;
+  background-color: red;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  background-color: brown;
+  display: flex;
+  justify-content: space-around;
+}
+
+header h1 {
+  color: var(--text-color);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+body > section {
+  background-color: orange;
+}
+
+h2 + img {
+  height: 300px;
+  /* width: 300px; */
+}
+
+main {
+  background-color: yellow;
+}

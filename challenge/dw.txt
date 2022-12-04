@@ -1,0 +1,20 @@
+http://alphabaydagmxakx6v27a7rqaqun7lt3cj3bkwy4z7pr5ns7rncoebad.onion/
+Grujiwe
+
+username
+ahG6hF4qA9
+password
+jsgskdh&Jg%h
+689435
+
+wallet recovery key
+xmr_wallet_SIslb2kEuG7yPCaxo9j2RATZbo3p4Y54PtAfItaq6pVldIKGpH1fVO
+
+account recovery phrase
+account_recovery_Jd8ufHnUtu0l2DoQTd7UvSwTb3OmQuU9AthWYH6zMXIDuZnv273dRo
+
+electrum wallet seed
+wrap coil animal hero drastic author coffee core suffer hover caution library
+
+electrum password
+jsgskdh&Jg%h

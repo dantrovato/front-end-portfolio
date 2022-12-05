@@ -59,6 +59,10 @@ a {
   padding: 1rem;
 }
 
+a:hover {
+  color: var(--standout-color);
+}
+
 #hero-section {
   display: flex;
   flex-direction: row-reverse;
@@ -96,6 +100,7 @@ section h2 {
   width: 20%;
   border-right: 2px solid white;
   padding: 2rem;
+  text-align: right;
 }
 
 section div {

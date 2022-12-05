@@ -1,6 +1,7 @@
 :root {
-  --primary-color: rgb(79, 154, 154);
-  --secondary-color: rgb(3, 56, 56);
+  /* --primary-color: rgb(79, 154, 154); */
+  --primary-color: rgb(3, 56, 56);
+  --standout-color: red;
   --text-color: white;
 }
 
@@ -30,18 +31,20 @@ p {
 }
 
 header {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   display: flex;
   justify-content: space-between;
-  /* margin-left: 3rem; */
 }
 
 header h1 {
   color: var(--text-color);
   width: 30%;
-  background-color: var(--primary-color);
   text-align: right;
   padding: 0.8rem 1.5rem;
+}
+
+.standout-color {
+  color: var(--standout-color);
 }
 
 nav {
@@ -50,33 +53,55 @@ nav {
   padding: 0.8rem 1.5rem;
 }
 
-nav a {
+a {
   text-decoration: none;
   color: var(--text-color);
   padding: 1rem;
 }
 
-body > section {
-  background-color: var(--secondary-color);
-}
-
 #hero-section {
   display: flex;
   flex-direction: row-reverse;
+  background-image: url("../images/02-hero-bg.jpg");
+  background-size: cover;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#hero-section h1 {
+  background-color: var(--primary-color);
+  color: var(--standout-color);
+  text-shadow: 5px 5px black;
+  padding: 2rem;
+  border-radius: 1rem;
 }
 
 #about-div {
   display: flex;
 }
 
-h2 + img,
-div img {
-  height: 300px;
-  /* width: 300px; */
+main {
+  background-color: var(--primary-color);
 }
 
-main {
-  background-color: yellow;
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+section h2 {
+  width: 20%;
+  border-right: 2px solid white;
+  padding: 2rem;
+}
+
+section div {
+  width: 80%;
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width: 700px) {

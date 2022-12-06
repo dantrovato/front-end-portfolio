@@ -1,6 +1,7 @@
 :root {
   /* --primary-color: rgb(79, 154, 154); */
   --primary-color: rgb(3, 56, 56);
+  --secondary-color: rgb(20, 70, 70);
   --standout-color: red;
   --text-color: white;
 }
@@ -45,6 +46,7 @@ header h1 {
 
 .standout-color {
   color: var(--standout-color);
+  text-shadow: 5px 5px black;
 }
 
 nav {
@@ -107,6 +109,24 @@ section div {
   width: 80%;
   display: flex;
   align-items: center;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background-color: var(--text-color);
+  color: var(--primary-color);
+  margin-left: 2rem;
+  padding: 1rem;
+}
+
+.projects a {
+  color: var(--standout-color);
+}
+
+.projects a:hover {
+  font-size: 1.2rem;
 }
 
 @media screen and (max-width: 700px) {

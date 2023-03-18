@@ -52,7 +52,13 @@ header h1 {
 nav {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 0.8rem 1.5rem;
+}
+
+#photo {
+  height: 4rem;
+  margin-top: 0.5rem;
 }
 
 a {
